@@ -2,16 +2,16 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <section>
-      <article>fiona.</article>
+    <section className="font-sans text-shadow-lg m-4 flex flex-row items-center justify-between">
+      <article className="text-3xl">fiona.</article>
       <article>
         <nav>
-          <ul>
+          <ul className="flex flex-row">
             <Link href="/">
-              <li>work</li>
+              <li className="mx-2">work</li>
             </Link>
             <Link href="/about">
-              <li>about</li>
+              <li className="ml-2">about</li>
             </Link>
           </ul>
         </nav>
