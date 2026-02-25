@@ -14,13 +14,13 @@ export default function Header() {
           <ul className="flex flex-row">
             <Link href="/">
               <li
-                className={`mx-2 [&.active]:border-b-2 [&.active]:border-gold-300 [&.active]:shadow-underline [&.active]:font-bold ${pathname === "/" ? "active" : ""}`}>
+                className={`mx-2 [&.active]:border-b-2 [&.active]:border-gold-300 [&.active]:shadow-underline [&.active]:font-bold ${pathname === "/" ? "active" : ""} hover:border-b-2 hover:border-gold-300`}>
                 work
               </li>
             </Link>
             <Link href="/about">
               <li
-                className={`ml-2 [&.active]:border-b-2 [&.active]:border-gold-300 [&.active]:shadow-underline [&.active]:font-bold ${pathname === "/about" ? "active" : ""}`}>
+                className={`ml-2 [&.active]:border-b-2 [&.active]:border-gold-300 [&.active]:shadow-underline [&.active]:font-bold ${pathname === "/about" ? "active" : ""} hover:border-b-2 hover:border-gold-300`}>
                 about
               </li>
             </Link>
